@@ -1,0 +1,100 @@
+import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
+
+const Footer = () => {
+  return (
+    <footer className="bg-foreground text-background">
+      <div className="container mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+          {/* Company Info */}
+          <div className="lg:col-span-1">
+            <div className="text-2xl font-bold text-primary mb-4">
+              MangosOrange
+            </div>
+            <p className="text-background/80 mb-6 leading-relaxed">
+              Bridging the gap between cutting-edge technology and exceptional talent. 
+              We know tech, we care about people.
+            </p>
+            <div className="flex gap-4">
+              <a href="#" className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+                <Twitter className="w-5 h-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+                <Github className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h3 className="font-bold text-lg mb-4">Services</h3>
+            <ul className="space-y-2">
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">IT Talent Sourcing</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Cloud Solutions</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Software Development</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Cybersecurity</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Data & Analytics</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Digital Transformation</a></li>
+            </ul>
+          </div>
+
+          {/* Industries */}
+          <div>
+            <h3 className="font-bold text-lg mb-4">Industries</h3>
+            <ul className="space-y-2">
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Financial Services</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Healthcare</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">E-commerce</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Education</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Manufacturing</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Enterprise Software</a></li>
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h3 className="font-bold text-lg mb-4">Get in Touch</h3>
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <Mail className="w-5 h-5 text-primary flex-shrink-0" />
+                <a href="mailto:hello@mangosorange.com" className="text-background/80 hover:text-primary transition-colors">
+                  hello@mangosorange.com
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <Phone className="w-5 h-5 text-primary flex-shrink-0" />
+                <a href="tel:+1-555-123-4567" className="text-background/80 hover:text-primary transition-colors">
+                  +1 (555) 123-4567
+                </a>
+              </div>
+              <div className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                <div className="text-background/80">
+                  123 Tech Street<br />
+                  San Francisco, CA 94105
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-background/20 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-background/60 text-sm">
+              © 2024 MangosOrange. All rights reserved.
+            </div>
+            <div className="flex gap-6 text-sm">
+              <a href="#" className="text-background/60 hover:text-primary transition-colors">Privacy Policy</a>
+              <a href="#" className="text-background/60 hover:text-primary transition-colors">Terms of Service</a>
+              <a href="#" className="text-background/60 hover:text-primary transition-colors">Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

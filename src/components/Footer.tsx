@@ -40,16 +40,16 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Industries */}
+          {/* Quick Links */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Industries</h3>
+            <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Financial Services</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Healthcare</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">E-commerce</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Education</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Manufacturing</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Enterprise Software</a></li>
+              <li><a href="/about" className="text-background/80 hover:text-primary transition-colors">About Us</a></li>
+              <li><a href="/contact" className="text-background/80 hover:text-primary transition-colors">Contact</a></li>
+              <li><a href="/terms-and-conditions" className="text-background/80 hover:text-primary transition-colors">Terms & Conditions</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Careers</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors">Blog</a></li>
             </ul>
           </div>
 
@@ -87,7 +87,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-background/60 hover:text-primary transition-colors">Privacy Policy</a>
-              <a href="#" className="text-background/60 hover:text-primary transition-colors">Terms of Service</a>
+              <a href="/terms-and-conditions" className="text-background/60 hover:text-primary transition-colors">Terms & Conditions</a>
               <a href="#" className="text-background/60 hover:text-primary transition-colors">Cookie Policy</a>
             </div>
           </div>

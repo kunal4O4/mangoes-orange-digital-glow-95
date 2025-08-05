@@ -82,7 +82,6 @@ const Header = () => {
             <a href="#" onClick={(e) => handleSectionClick(e, 'cloud')} className="text-foreground hover:text-primary transition-colors">Cloud Infrastructure</a>
             <a href="#" onClick={(e) => handleSectionClick(e, 'staffing')} className="text-foreground hover:text-primary transition-colors">Staffing</a>
             <a href="#" onClick={(e) => handleSectionClick(e, 'hmis')} className="text-foreground hover:text-primary transition-colors">HMIS</a>
-            <a href="#" onClick={(e) => handleSectionClick(e, 'copilot')} className="text-foreground hover:text-primary transition-colors">Copilot</a>
             <Link to="/contact">
               <Button variant="outline" className="mr-2">
                 Contact Us
@@ -118,7 +117,6 @@ const Header = () => {
             <a href="#" onClick={(e) => handleSectionClick(e, 'cloud')} className="block text-foreground hover:text-primary transition-colors">Cloud Infrastructure</a>
             <a href="#" onClick={(e) => handleSectionClick(e, 'staffing')} className="block text-foreground hover:text-primary transition-colors">Staffing</a>
             <a href="#" onClick={(e) => handleSectionClick(e, 'hmis')} className="block text-foreground hover:text-primary transition-colors">HMIS</a>
-            <a href="#" onClick={(e) => handleSectionClick(e, 'copilot')} className="block text-foreground hover:text-primary transition-colors">Copilot</a>
             <div className="space-y-2 pt-4">
               <Link to="/contact">
                 <Button variant="outline" className="w-full">

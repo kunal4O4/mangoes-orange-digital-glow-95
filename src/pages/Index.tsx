@@ -6,6 +6,7 @@ import StaffingSection from '@/components/StaffingSection';
 import ClientLogosSection from '@/components/ClientLogosSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 
 const Index = () => {
   useEffect(() => {
@@ -30,6 +31,7 @@ const Index = () => {
       <StaffingSection />
       <CTASection />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
